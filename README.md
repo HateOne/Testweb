@@ -1,1 +1,1 @@
-[![Java CI with Gradle](https://github.com/HateOne/Webtest/actions/workflows/gradle-publish.yml/badge.svg)](https://github.com/HateOne/Webtest/actions/workflows/gradle-publish.yml)
+[![Java CI with Gradle](https://github.com/HateOne/Testweb/actions/workflows/gradle.yml/badge.svg)](https://github.com/HateOne/Testweb/actions/workflows/gradle.yml)
