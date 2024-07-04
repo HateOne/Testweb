@@ -78,7 +78,7 @@ public class CardOrderFormTest {
         driver.findElement(By.cssSelector("[data-test-id ='phone'] input")).sendKeys("45");
         driver.findElement(By.cssSelector("[data-test-id ='agreement']")).click();
         driver.findElement(By.cssSelector("button.button")).click();
-        assertEquals("Телефон указан неверно. Должно быть 11 цифр, например, +79370625698.",
+        assertEquals("Телефон указан неверно. Должно быть 11 цифр, например, +79012345678.",
                 driver.findElement(By.cssSelector("[data-test-id ='phone'].input_invalid .input__sub")).getText().trim());
         assertTrue(driver.findElement(By.cssSelector("[data-test-id ='phone'].input_invalid .input__sub")).isDisplayed());
     }
